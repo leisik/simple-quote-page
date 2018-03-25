@@ -14,10 +14,11 @@ body{
   height: 100vh;
 }
 h1{
+    font-size: 1.5rem;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     padding: 10%;
-    line-height: 3rem;
+    line-height: 4rem;
     letter-spacing: 0.25rem;
     
     
@@ -27,4 +28,9 @@ p{
     font-size: 1.5rem;
     color: #ccc;
     font-style: italic;
+}
+@media (min-width: 1025px){
+    h1{
+        font-size: 2.5rem;
+    }
 }
